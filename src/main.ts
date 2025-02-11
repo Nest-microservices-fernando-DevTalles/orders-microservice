@@ -21,6 +21,6 @@ async function bootstrap() {
 
   console.log(RpcCustomExceptionFilter);
 
-  logger.log(`Microservice running on port ${envs.port}`);
+  logger.log(`Orders Microservice running on port ${envs.port}`);
 }
 bootstrap();
